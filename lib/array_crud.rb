@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["John", "Paul", "George", "Ringo"]
+  ["1", "2", "3", "4"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -35,5 +35,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-  array[index_number] = (element)
+  array[index_number] = element 
 end
